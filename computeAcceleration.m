@@ -1,6 +1,7 @@
 function [time_0to60, scriptVer] = computeAcceleration(frontalArea, dragCoefficient, motorPowerMax, enginePowerMax, batteryCapacity, fuelCapacity)
     
     scriptVer = 1;
+    
     %% Define Constants (DO NOT ALTER)
     airDensity = 1.225;     % kg/m^3 (air density at sea level)
     gravity = 9.81;         % m/s^2 (acceleration due to gravity)

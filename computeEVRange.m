@@ -1,6 +1,7 @@
 function [EVrange, scriptVer] = computeEVRange(frontalArea, dragCoefficient, motorPowerMax, enginePowerMax, batteryCapacity, fuelCapacity)
     
-    scriptVer = 1;
+    scriptVer = 2;
+    
     %% Set Fuel Capacity = 0
     fuelCapacity = 0;
 
