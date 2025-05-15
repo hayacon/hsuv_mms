@@ -1,4 +1,4 @@
-function [range, scriptVer] = computeRange(frontalArea, dragCoefficient, motorPowerMax, enginePowerMax, batteryCapacity, fuelCapacity)
+function [range, scriptVer] = computeRange(frontalArea, dragCoefficient, motorPowerMax, enginePowerMax, batteryCapacity, fuelCapacity, totalMass)
     
     scriptVer = 1;
     %% Define Constants (DO NOT ALTER)

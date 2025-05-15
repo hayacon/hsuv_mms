@@ -1,4 +1,4 @@
-function [time_0to60, scriptVer] = computeAcceleration(frontalArea, dragCoefficient, motorPowerMax, enginePowerMax, batteryCapacity, fuelCapacity)
+function [time_0to60, scriptVer] = computeAcceleration(frontalArea, dragCoefficient, motorPowerMax, enginePowerMax, batteryCapacity, fuelCapacity, totalMass)
     
     scriptVer = 1;
     

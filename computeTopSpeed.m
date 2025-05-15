@@ -1,4 +1,4 @@
-function [V_top, scriptVer] = computeTopSpeed(frontalArea, dragCoefficient, motorPowerMax, enginePowerMax, batteryCapacity, fuelCapacity)
+function [V_top, scriptVer] = computeTopSpeed(frontalArea, dragCoefficient, motorPowerMax, enginePowerMax, batteryCapacity, fuelCapacity, totalMass)
     
     scriptVer = 1;
     %% Constants (Do NOT alter)

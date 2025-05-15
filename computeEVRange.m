@@ -1,4 +1,4 @@
-function [EVrange, scriptVer] = computeEVRange(frontalArea, dragCoefficient, motorPowerMax, enginePowerMax, batteryCapacity, fuelCapacity)
+function [EVrange, scriptVer] = computeEVRange(frontalArea, dragCoefficient, motorPowerMax, enginePowerMax, batteryCapacity, fuelCapacity, totalMass)
     
     scriptVer = 2;
     
